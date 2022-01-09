@@ -96,7 +96,7 @@ def load():
  
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', SERIE_LATIN[0])
-    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'مسلسلات مكسيكي', 'mslsl.png', oOutputParameterHandler)
+    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'مسلسلات مكسيكية', 'mslsl.png', oOutputParameterHandler)
     
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', ANIM_NEWS[0])
@@ -104,19 +104,19 @@ def load():
     
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', URL_MAIN + '/category/other-shows/wrestling/')
-    oGui.addDir(SITE_IDENTIFIER, 'showEps', 'مصارعة', 'wwe.png', oOutputParameterHandler)
+    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'مصارعة', 'wwe.png', oOutputParameterHandler)
     
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', REPLAYTV_NEWS[0])
-    oGui.addDir(SITE_IDENTIFIER, 'showEps', 'برامج تلفزيونية', 'brmg.png', oOutputParameterHandler)
+    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'برامج تلفزيونية', 'brmg.png', oOutputParameterHandler)
     
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', REPLAYTV_PLAY[0])
-    oGui.addDir(SITE_IDENTIFIER, 'showEps', 'حيات', 'msrh.png', oOutputParameterHandler)
+    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'مسرحيات', 'msrh.png', oOutputParameterHandler)
     
     oOutputParameterHandler = cOutputParameterHandler()
     oOutputParameterHandler.addParameter('siteUrl', URL_MAIN + '/category/%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d8%b9%d8%b1%d8%a8%d9%8a/')
-    oGui.addDir(SITE_IDENTIFIER, 'showEps', 'برامج عربي', 'brmg.png', oOutputParameterHandler)
+    oGui.addDir(SITE_IDENTIFIER, 'showSeries', 'برامج عربية', 'brmg.png', oOutputParameterHandler)
     
     oGui.setEndOfDirectory()
  
